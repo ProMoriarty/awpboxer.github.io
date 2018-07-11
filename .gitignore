@@ -1,49 +1,35 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
+# Created by https://www.gitignore.io/api/macos
 
-# OS or Editor folders
-.DS_Store
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
 ._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
 
-# Komodo
-*.komodoproject
-.komodotools
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# grunt-html-validation
-validation-status.json
-validation-report.json
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Folders to ignore
-node_modules
-.sass-cache
+# End of https://www.gitignore.io/api/macos
 
-# Dev stuff
-Makefile
-Gemfile.lock
-_config.dev.yml
-.vscode
-*.gem
+# debug file
+_site
